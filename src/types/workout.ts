@@ -28,6 +28,8 @@ export type SplitDayTemplate = {
   }[];
 };
 
+export type SplitDay = SplitDayTemplate;
+
 export type EditableSet = {
   id: string;
   set: number;

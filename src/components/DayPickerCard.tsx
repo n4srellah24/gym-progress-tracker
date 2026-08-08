@@ -23,7 +23,7 @@ export const DayPickerCard: React.FC<DayPickerCardProps> = ({
 
   return (
     <Link
-      href={`/session/${day.slug}?date=${selectedDate}`}
+      href={`/session/${day.id}?date=${selectedDate}`}
       className="apple-press group relative flex flex-col justify-between overflow-hidden rounded-[20px] border border-white/[0.06] bg-[#161618] p-5 transition-colors duration-150 hover:bg-[#1a1a1c] hover:border-white/[0.1]"
     >
       <div>
