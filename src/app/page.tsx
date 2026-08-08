@@ -5,7 +5,7 @@ import { TRAINING_SPLIT } from "@/lib/trainingSplit";
 import { getTodayISODate, formatReadableDate } from "@/lib/utils";
 import { DayPickerCard } from "@/components/DayPickerCard";
 import { Navbar } from "@/components/Navbar";
-import { Calendar, Info } from "lucide-react";
+import { Calendar } from "lucide-react";
 
 export default function HomePage() {
   const [selectedDate, setSelectedDate] = useState<string>(getTodayISODate());

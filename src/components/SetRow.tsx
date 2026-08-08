@@ -2,7 +2,7 @@
 
 import React from "react";
 import { EditableSet } from "@/types/workout";
-import { Trash2, Copy, Plus, Minus, Check } from "lucide-react";
+import { Trash2, Copy, Check } from "lucide-react";
 
 interface SetRowProps {
   setIndex: number;

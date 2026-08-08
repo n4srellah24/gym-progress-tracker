@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { SplitDay } from "@/types/workout";
-import { ChevronRight, Dumbbell } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 interface DayPickerCardProps {
   day: SplitDay;

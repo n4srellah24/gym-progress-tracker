@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import confetti from "canvas-confetti";
-import { CheckCircle2, ExternalLink, ArrowRight, RotateCcw } from "lucide-react";
+import { CheckCircle2, ExternalLink, ArrowRight } from "lucide-react";
 import { SessionPayload } from "@/types/workout";
 
 interface SuccessModalProps {
